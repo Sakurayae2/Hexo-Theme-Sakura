@@ -1,0 +1,15 @@
+<% if (theme.valine && post.comments) { %>
+<div id="vcomments"></div>
+<script>
+  window.onload = function () {
+    var valine = new Valine();
+    valine.init({
+      el: '#vcomments',
+      appId: "<%= theme.v_appId %>",
+      appKey: "<%= theme.v_appKey %>",
+      path: window.location.pathname,
+      placeholder: "欢迎各位留下宝贵的评论,但还请文明发言哈!"
+    })
+  }
+</script>
+<% } %>

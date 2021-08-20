@@ -1,0 +1,110 @@
+# site name
+prefixName: Gin の
+siteName: さくらじま まい
+# favicon and site master avatar
+favicon: /images/favicon.ico
+avatar: /images/10.jpg
+url: https://sakurayae2.github.io
+description: 种一棵树的最佳时间是十年前,其次是现在!
+# cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+cdn: https://cdn.jsdelivr.net/gh/Sakurayae2/cdn@1.07
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: 欢迎来访,各位随意,可以看看我写的文章(还没写多少而且写的很烂),左下角可以听听音乐什么的,首页右下还有个镇站之宝,当然还有些乱七八糟的也可以去看看~后续完善工作也正在施工中...
+lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake
+  # , submenus: { 
+  #   技术: {path: /category/Technology, fa: fa-code }, 
+  #   生活: {path: /category/Life, fa: fa-file-text-o }, 
+  #   资源: {path: /category/Resource, fa: fa-cloud-download }, 
+  #   随想: {path: /category/Essays, fa: fa-commenting-o },
+  #   转载: {path: /category/Reprint, fa: fa-book }
+  # } 
+  }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/read/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    图集: {path: /tags/images/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    我？: {path: /about/, fa: fa-meetup}, 
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    Lab: {path: /lab/, fa: fa-cogs },
+  } }
+  # 客户端: { path: /client/, fa: fa-android faa-vertical }
+  # RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  - https://cdn.jsdelivr.net/gh/Sakurayae2/cdn@1.07/images/14.png
+  - https://cdn.jsdelivr.net/gh/Sakurayae2/cdn@1.07/images/7.png
+  - https://cdn.jsdelivr.net/gh/Sakurayae2/cdn@1.07/images/8.png
+  - https://cdn.jsdelivr.net/gh/Sakurayae2/cdn@1.07/images/10.png
+
+
+# startdash url, title, desc img
+startdash: 
+  - {url: https://github.com/Sakurayae2/Sakurayae2.github.io, title: Sakura, desc: 本站 hexo 主题, img: /images/11.png}
+  - {url: https://www.bilibili.com/video/BV1nx411F7Jf, title: Bilibili, desc: 秋山澪与折木奉太郎的爱情故事 // Our Tapes, img: /images/12.png}
+  - {url: https://github.com/Sakurayae2, title: Github, desc: 个人, img: /images/1.png}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 08/17/2021
+
+#social  url, img PC端配置
+social:
+  #gitee: {url: https://gitee.com/cungudafa, img: /img/social/gitee.png}
+  github: {url: https://github.com/Sakurayae2, img: /images/GitHub.png}
+  #csdn: {url: https://blog.csdn.net/cungudafa, img: /img/social/csdn.png}
+  #zhihu: {url: https://www.zhihu.com/people/cungudafa, img: /img/social/zhihu.png}
+  #jianshu: {url: /https://www.jianshu.com/u/9b726a534140, img: /img/social/jianshu.png}
+  # sina: {url: http://weibo.com/3829198906/info, img: /img/social/sina.png}
+  bilibili: {url: https://space.bilibili.com/266986404, img: /images/bilibili.png}
+  wyy: {url: https://music.163.com/#/my/m/music/playlist?id=887435773, img: /images/wangyiyun.png}
+  #wechat: {url: /#, qrcode: /img/custom/cungudafa.png, img: /img/social/wechat.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: https://github.com/Sakurayae2, fa: fa-github, color: 333}
+  bilibili: {url: https://m.bilibili.com/space?from=headline
+, img: /images/bilibili.png}
+  wyy: {url:  http://music.163.com/playlist/887435773/571131091/?userid=571131091 
+, img: /images/wangyiyun.png}
+
+# 视频地址配置如下
+movies:
+  url: https://cdn.jsdelivr.net/gh/Sakurayae2/cdn@1.05/vedio/
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: OurTapes.mp4
+
+aplayer: 
+  id: 5316663616
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine
+valine: true
+v_appId: dSHPYXy9adbojPN5pf5KB6qs-gzGzoHsz
+v_appKey: 8Ai3FqvbiSM2syUHwLyVsRfW
